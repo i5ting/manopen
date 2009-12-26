@@ -322,11 +322,11 @@
     [textView setSelectable:YES];
     [textView setImportsGraphics:NO];
     [textView setRichText:YES];
-#ifdef MACOS_X
-    /* The new ATS typesetter in Jaguar causes some weirdnesses... but is fixed in later versions. */
-    if (IsPantherOrEarlier())
-        [[textView layoutManager] setTypesetter:[NSSimpleHorizontalTypesetter sharedInstance]];
-#endif
+//#ifdef MACOS_X
+//    /* The new ATS typesetter in Jaguar causes some weirdnesses... but is fixed in later versions. */
+//    if (IsPantherOrEarlier())
+//        [[textView layoutManager] setTypesetter:[NSSimpleHorizontalTypesetter sharedInstance]];
+//#endif
 
     if (sizeString != nil)
     {

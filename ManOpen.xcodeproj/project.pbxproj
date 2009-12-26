@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4554B5D10F2CBC30002680A4 /* AproposDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = D39278FF0821FFA400376676 /* AproposDocument.h */; };
+		4554B5D20F2CBC30002680A4 /* FindPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = D39279010821FFA400376676 /* FindPanelController.h */; };
+		4554B5D30F2CBC30002680A4 /* ManDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = D39279030821FFA400376676 /* ManDocument.h */; };
+		4554B5D40F2CBC30002680A4 /* ManDocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = D39279050821FFA400376676 /* ManDocumentController.h */; };
+		4554B5D50F2CBC30002680A4 /* ManOpenProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D39279070821FFA400376676 /* ManOpenProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4554B5D60F2CBC30002680A4 /* NSData+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D39279090821FFA400376676 /* NSData+Utils.h */; };
+		4554B5D70F2CBC30002680A4 /* PrefPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = D392790B0821FFA400376676 /* PrefPanelController.h */; };
+		4554B5D80F2CBC30002680A4 /* SystemType.h in Headers */ = {isa = PBXBuildFile; fileRef = D392790D0821FFA400376676 /* SystemType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4554B5DA0F2CBC30002680A4 /* ManPage.nib in Resources */ = {isa = PBXBuildFile; fileRef = D39279130821FFA400376676 /* ManPage.nib */; };
+		4554B5DB0F2CBC30002680A4 /* PrefPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = D39279160821FFA400376676 /* PrefPanel.nib */; };
+		4554B5DC0F2CBC30002680A4 /* FindPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = D39279190821FFA400376676 /* FindPanel.nib */; };
+		4554B5DD0F2CBC30002680A4 /* Apropos.nib in Resources */ = {isa = PBXBuildFile; fileRef = D392791C0821FFA400376676 /* Apropos.nib */; };
+		4554B5DE0F2CBC30002680A4 /* ManOpen.nib in Resources */ = {isa = PBXBuildFile; fileRef = D392791F0821FFA400376676 /* ManOpen.nib */; };
+		4554B5DF0F2CBC30002680A4 /* DocController.nib in Resources */ = {isa = PBXBuildFile; fileRef = D39279240821FFA400376676 /* DocController.nib */; };
+		4554B5E00F2CBC30002680A4 /* LinkCursor.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D39279280821FFA400376676 /* LinkCursor.tiff */; };
+		4554B5E10F2CBC30002680A4 /* ManOpen-nextstep.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D392792A0821FFA400376676 /* ManOpen-nextstep.tiff */; };
+		4554B5E20F2CBC30002680A4 /* ManOpen.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D392792C0821FFA400376676 /* ManOpen.tiff */; };
+		4554B5E30F2CBC30002680A4 /* ManOpen.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = D392792F0821FFA400376676 /* ManOpen.scriptSuite */; };
+		4554B5E40F2CBC30002680A4 /* ManOpen.icns in Resources */ = {isa = PBXBuildFile; fileRef = D39279310821FFA400376676 /* ManOpen.icns */; };
+		4554B5E50F2CBC30002680A4 /* ManOpen.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = D39279330821FFA400376676 /* ManOpen.scriptTerminology */; };
+		4554B5E60F2CBC30002680A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D39279350821FFA400376676 /* Credits.rtf */; };
+		4554B5E70F2CBC30002680A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39279380821FFA400376676 /* InfoPlist.strings */; };
+		4554B5E90F2CBC30002680A4 /* AproposDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D39278F20821FFA400376676 /* AproposDocument.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5EA0F2CBC30002680A4 /* FindPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39278F40821FFA400376676 /* FindPanelController.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5EB0F2CBC30002680A4 /* ManDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D39278F60821FFA400376676 /* ManDocument.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5EC0F2CBC30002680A4 /* ManDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39278F80821FFA400376676 /* ManDocumentController.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5ED0F2CBC30002680A4 /* NSData+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D39278FA0821FFA400376676 /* NSData+Utils.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5EE0F2CBC30002680A4 /* PrefPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39278FC0821FFA400376676 /* PrefPanelController.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5EF0F2CBC30002680A4 /* ManOpen_main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39279100821FFA400376676 /* ManOpen_main.m */; settings = {ATTRIBUTES = (); }; };
+		4554B5F10F2CBC30002680A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279810821FFA400376676 /* Foundation.framework */; };
+		4554B5F20F2CBC30002680A4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279850821FFA400376676 /* AppKit.framework */; };
+		4554B6010F2CBC30002680A4 /* cat2rtf.c in Sources */ = {isa = PBXBuildFile; fileRef = D39279500821FFA400376676 /* cat2rtf.c */; settings = {ATTRIBUTES = (); }; };
+		4554B60D0F2CBC30002680A4 /* cat2html.c in Sources */ = {isa = PBXBuildFile; fileRef = D39279630821FFA400376676 /* cat2html.c */; settings = {ATTRIBUTES = (); }; };
+		4554B60F0F2CBC30002680A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279810821FFA400376676 /* Foundation.framework */; };
+		4554B61A0F2CBC30002680A4 /* openman.m in Sources */ = {isa = PBXBuildFile; fileRef = D39279770821FFA400376676 /* openman.m */; settings = {ATTRIBUTES = (); }; };
+		4554B61C0F2CBC30002680A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279810821FFA400376676 /* Foundation.framework */; };
+		4554B61D0F2CBC30002680A4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39279850821FFA400376676 /* AppKit.framework */; };
+		4554B62E0F2CBC30002680A4 /* cat2rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4554B6080F2CBC30002680A4 /* cat2rtf */; };
+		4554B62F0F2CBC30002680A4 /* cat2html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4554B6150F2CBC30002680A4 /* cat2html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4554B6290F2CBC30002680A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39279890821FFA400376676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */;
+			remoteInfo = "cat2rtf (Tool) (Upgraded)";
+		};
+		4554B62B0F2CBC30002680A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39279890821FFA400376676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */;
+			remoteInfo = "cat2html (Tool) (Upgraded)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4554B5F40F2CBC30002680A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				4554B62E0F2CBC30002680A4 /* cat2rtf in CopyFiles */,
+				4554B62F0F2CBC30002680A4 /* cat2html in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4554B5FB0F2CBC30002680A4 /* Info-ManOpen__Application___Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ManOpen__Application___Upgraded_.plist"; sourceTree = "<group>"; };
+		4554B5FC0F2CBC30002680A4 /* ManOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ManOpen.app; path = /Users/schwa/Development/Products/Development/ManOpen.app; sourceTree = "<absolute>"; };
+		4554B6080F2CBC30002680A4 /* cat2rtf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cat2rtf; sourceTree = BUILT_PRODUCTS_DIR; };
+		4554B6150F2CBC30002680A4 /* cat2html */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cat2html; sourceTree = BUILT_PRODUCTS_DIR; };
+		4554B6230F2CBC30002680A4 /* openman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openman; sourceTree = BUILT_PRODUCTS_DIR; };
+		D314F2E60825A8F100E439E7 /* CustomInfoOSXOverrides.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; path = CustomInfoOSXOverrides.plist; sourceTree = "<group>"; };
+		D39278F20821FFA400376676 /* AproposDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AproposDocument.m; sourceTree = "<group>"; };
+		D39278F40821FFA400376676 /* FindPanelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPanelController.m; sourceTree = "<group>"; };
+		D39278F60821FFA400376676 /* ManDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManDocument.m; sourceTree = "<group>"; };
+		D39278F80821FFA400376676 /* ManDocumentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManDocumentController.m; sourceTree = "<group>"; };
+		D39278FA0821FFA400376676 /* NSData+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Utils.m"; sourceTree = "<group>"; };
+		D39278FC0821FFA400376676 /* PrefPanelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrefPanelController.m; sourceTree = "<group>"; };
+		D39278FF0821FFA400376676 /* AproposDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AproposDocument.h; sourceTree = "<group>"; };
+		D39279010821FFA400376676 /* FindPanelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPanelController.h; sourceTree = "<group>"; };
+		D39279030821FFA400376676 /* ManDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManDocument.h; sourceTree = "<group>"; };
+		D39279050821FFA400376676 /* ManDocumentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManDocumentController.h; sourceTree = "<group>"; };
+		D39279070821FFA400376676 /* ManOpenProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManOpenProtocol.h; sourceTree = "<group>"; };
+		D39279090821FFA400376676 /* NSData+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Utils.h"; sourceTree = "<group>"; };
+		D392790B0821FFA400376676 /* PrefPanelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefPanelController.h; sourceTree = "<group>"; };
+		D392790D0821FFA400376676 /* SystemType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemType.h; sourceTree = "<group>"; };
+		D39279100821FFA400376676 /* ManOpen_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManOpen_main.m; sourceTree = "<group>"; };
+		D39279150821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ManPage.nib; sourceTree = "<group>"; };
+		D39279180821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PrefPanel.nib; sourceTree = "<group>"; };
+		D392791B0821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FindPanel.nib; sourceTree = "<group>"; };
+		D392791E0821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Apropos.nib; sourceTree = "<group>"; };
+		D39279210821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ManOpen.nib; sourceTree = "<group>"; };
+		D39279220821FFA400376676 /* English - macintosh */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "English - macintosh"; path = "English.lproj/ManOpen-macintosh.nib"; sourceTree = "<group>"; };
+		D39279230821FFA400376676 /* English - macos */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "English - macos"; path = "English.lproj/ManOpen-macos.nib"; sourceTree = "<group>"; };
+		D39279260821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocController.nib; sourceTree = "<group>"; };
+		D39279280821FFA400376676 /* LinkCursor.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LinkCursor.tiff; sourceTree = "<group>"; };
+		D392792A0821FFA400376676 /* ManOpen-nextstep.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ManOpen-nextstep.tiff"; sourceTree = "<group>"; };
+		D392792C0821FFA400376676 /* ManOpen.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ManOpen.tiff; sourceTree = "<group>"; };
+		D392792F0821FFA400376676 /* ManOpen.scriptSuite */ = {isa = PBXFileReference; lastKnownFileType = text.plist.scriptSuite; path = ManOpen.scriptSuite; sourceTree = "<group>"; };
+		D39279310821FFA400376676 /* ManOpen.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ManOpen.icns; sourceTree = "<group>"; };
+		D39279330821FFA400376676 /* ManOpen.scriptTerminology */ = {isa = PBXFileReference; lastKnownFileType = text.plist.scriptTerminology; path = ManOpen.scriptTerminology; sourceTree = "<group>"; };
+		D39279370821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D392793A0821FFA400376676 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D392793C0821FFA400376676 /* CustomInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = CustomInfo.plist; sourceTree = "<group>"; };
+		D392793D0821FFA400376676 /* h.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = h.template; sourceTree = "<group>"; };
+		D392793E0821FFA400376676 /* m.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = m.template; sourceTree = "<group>"; };
+		D392793F0821FFA400376676 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D39279400821FFA400376676 /* Makefile.postamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.postamble; sourceTree = "<group>"; };
+		D39279410821FFA400376676 /* Makefile.preamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.preamble; sourceTree = "<group>"; };
+		D39279500821FFA400376676 /* cat2rtf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat2rtf.c; sourceTree = "<group>"; };
+		D39279530821FFA400376676 /* Makefile.preamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.preamble; sourceTree = "<group>"; };
+		D39279540821FFA400376676 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D39279550821FFA400376676 /* Makefile.postamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.postamble; sourceTree = "<group>"; };
+		D39279560821FFA400376676 /* cat2rtf.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = cat2rtf.l; sourceTree = "<group>"; };
+		D39279630821FFA400376676 /* cat2html.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat2html.c; sourceTree = "<group>"; };
+		D39279660821FFA400376676 /* Makefile.preamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.preamble; sourceTree = "<group>"; };
+		D39279670821FFA400376676 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D39279680821FFA400376676 /* Makefile.postamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.postamble; sourceTree = "<group>"; };
+		D39279690821FFA400376676 /* cat2html.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = cat2html.l; sourceTree = "<group>"; };
+		D39279770821FFA400376676 /* openman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openman.m; sourceTree = "<group>"; };
+		D392797A0821FFA400376676 /* Makefile.preamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.preamble; sourceTree = "<group>"; };
+		D392797B0821FFA400376676 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D392797C0821FFA400376676 /* Makefile.postamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.postamble; sourceTree = "<group>"; };
+		D392797D0821FFA400376676 /* m.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = m.template; sourceTree = "<group>"; };
+		D392797E0821FFA400376676 /* h.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = h.template; sourceTree = "<group>"; };
+		D392797F0821FFA400376676 /* openman.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = openman.1; sourceTree = "<group>"; };
+		D39279810821FFA400376676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D39279850821FFA400376676 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4554B5F00F2CBC30002680A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B5F10F2CBC30002680A4 /* Foundation.framework in Frameworks */,
+				4554B5F20F2CBC30002680A4 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B6020F2CBC30002680A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B60E0F2CBC30002680A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B60F0F2CBC30002680A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B61B0F2CBC30002680A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B61C0F2CBC30002680A4 /* Foundation.framework in Frameworks */,
+				4554B61D0F2CBC30002680A4 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39278DB0821FF9D00376676 /* ManOpen */ = {
+			isa = PBXGroup;
+			children = (
+				D39278E40821FFA400376676 /* Subprojects */,
+				D39279800821FFA400376676 /* External Frameworks and Libraries */,
+				D39278ED0821FFA400376676 /* Products */,
+				4554B5FB0F2CBC30002680A4 /* Info-ManOpen__Application___Upgraded_.plist */,
+			);
+			name = ManOpen;
+			sourceTree = "<group>";
+		};
+		D39278E40821FFA400376676 /* Subprojects */ = {
+			isa = PBXGroup;
+			children = (
+				D39278E50821FFA400376676 /* ManOpen */,
+				D392796A0821FFA400376676 /* openman */,
+			);
+			name = Subprojects;
+			sourceTree = "<group>";
+		};
+		D39278E50821FFA400376676 /* ManOpen */ = {
+			isa = PBXGroup;
+			children = (
+				D39278F10821FFA400376676 /* Classes */,
+				D39278FE0821FFA400376676 /* Headers */,
+				D392790F0821FFA400376676 /* Other Sources */,
+				D39279120821FFA400376676 /* Interfaces */,
+				D39279270821FFA400376676 /* Images */,
+				D392792E0821FFA400376676 /* Resources */,
+				D392793B0821FFA400376676 /* Supporting Files */,
+				D39279420821FFA400376676 /* Subprojects */,
+			);
+			path = ManOpen;
+			sourceTree = "<group>";
+		};
+		D39278ED0821FFA400376676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4554B5FC0F2CBC30002680A4 /* ManOpen.app */,
+				4554B6080F2CBC30002680A4 /* cat2rtf */,
+				4554B6150F2CBC30002680A4 /* cat2html */,
+				4554B6230F2CBC30002680A4 /* openman */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39278F10821FFA400376676 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D39278F20821FFA400376676 /* AproposDocument.m */,
+				D39278F40821FFA400376676 /* FindPanelController.m */,
+				D39278F60821FFA400376676 /* ManDocument.m */,
+				D39278F80821FFA400376676 /* ManDocumentController.m */,
+				D39278FA0821FFA400376676 /* NSData+Utils.m */,
+				D39278FC0821FFA400376676 /* PrefPanelController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D39278FE0821FFA400376676 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D39278FF0821FFA400376676 /* AproposDocument.h */,
+				D39279010821FFA400376676 /* FindPanelController.h */,
+				D39279030821FFA400376676 /* ManDocument.h */,
+				D39279050821FFA400376676 /* ManDocumentController.h */,
+				D39279070821FFA400376676 /* ManOpenProtocol.h */,
+				D39279090821FFA400376676 /* NSData+Utils.h */,
+				D392790B0821FFA400376676 /* PrefPanelController.h */,
+				D392790D0821FFA400376676 /* SystemType.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		D392790F0821FFA400376676 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D39279100821FFA400376676 /* ManOpen_main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D39279120821FFA400376676 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				D39279130821FFA400376676 /* ManPage.nib */,
+				D39279160821FFA400376676 /* PrefPanel.nib */,
+				D39279190821FFA400376676 /* FindPanel.nib */,
+				D392791C0821FFA400376676 /* Apropos.nib */,
+				D392791F0821FFA400376676 /* ManOpen.nib */,
+				D39279240821FFA400376676 /* DocController.nib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		D39279270821FFA400376676 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D39279280821FFA400376676 /* LinkCursor.tiff */,
+				D392792A0821FFA400376676 /* ManOpen-nextstep.tiff */,
+				D392792C0821FFA400376676 /* ManOpen.tiff */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D392792E0821FFA400376676 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D392792F0821FFA400376676 /* ManOpen.scriptSuite */,
+				D39279310821FFA400376676 /* ManOpen.icns */,
+				D39279330821FFA400376676 /* ManOpen.scriptTerminology */,
+				D39279350821FFA400376676 /* Credits.rtf */,
+				D39279380821FFA400376676 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D392793B0821FFA400376676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D314F2E60825A8F100E439E7 /* CustomInfoOSXOverrides.plist */,
+				D392793C0821FFA400376676 /* CustomInfo.plist */,
+				D392793D0821FFA400376676 /* h.template */,
+				D392793E0821FFA400376676 /* m.template */,
+				D392793F0821FFA400376676 /* Makefile */,
+				D39279400821FFA400376676 /* Makefile.postamble */,
+				D39279410821FFA400376676 /* Makefile.preamble */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D39279420821FFA400376676 /* Subprojects */ = {
+			isa = PBXGroup;
+			children = (
+				D39279430821FFA400376676 /* cat2rtf */,
+				D39279570821FFA400376676 /* cat2html */,
+			);
+			name = Subprojects;
+			sourceTree = "<group>";
+		};
+		D39279430821FFA400376676 /* cat2rtf */ = {
+			isa = PBXGroup;
+			children = (
+				D392794F0821FFA400376676 /* Other Sources */,
+				D39279520821FFA400376676 /* Supporting Files */,
+			);
+			name = cat2rtf;
+			path = cat2rtf.tproj;
+			sourceTree = "<group>";
+		};
+		D392794F0821FFA400376676 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D39279500821FFA400376676 /* cat2rtf.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D39279520821FFA400376676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D39279530821FFA400376676 /* Makefile.preamble */,
+				D39279540821FFA400376676 /* Makefile */,
+				D39279550821FFA400376676 /* Makefile.postamble */,
+				D39279560821FFA400376676 /* cat2rtf.l */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D39279570821FFA400376676 /* cat2html */ = {
+			isa = PBXGroup;
+			children = (
+				D39279620821FFA400376676 /* Other Sources */,
+				D39279650821FFA400376676 /* Supporting Files */,
+			);
+			name = cat2html;
+			path = cat2html.tproj;
+			sourceTree = "<group>";
+		};
+		D39279620821FFA400376676 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D39279630821FFA400376676 /* cat2html.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D39279650821FFA400376676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D39279660821FFA400376676 /* Makefile.preamble */,
+				D39279670821FFA400376676 /* Makefile */,
+				D39279680821FFA400376676 /* Makefile.postamble */,
+				D39279690821FFA400376676 /* cat2html.l */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D392796A0821FFA400376676 /* openman */ = {
+			isa = PBXGroup;
+			children = (
+				D39279760821FFA400376676 /* Other Sources */,
+				D39279790821FFA400376676 /* Supporting Files */,
+			);
+			name = openman;
+			path = openman.tproj;
+			sourceTree = "<group>";
+		};
+		D39279760821FFA400376676 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D39279770821FFA400376676 /* openman.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D39279790821FFA400376676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D392797A0821FFA400376676 /* Makefile.preamble */,
+				D392797B0821FFA400376676 /* Makefile */,
+				D392797C0821FFA400376676 /* Makefile.postamble */,
+				D392797D0821FFA400376676 /* m.template */,
+				D392797E0821FFA400376676 /* h.template */,
+				D392797F0821FFA400376676 /* openman.1 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D39279800821FFA400376676 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D39279810821FFA400376676 /* Foundation.framework */,
+				D39279850821FFA400376676 /* AppKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4554B5D00F2CBC30002680A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B5D10F2CBC30002680A4 /* AproposDocument.h in Headers */,
+				4554B5D20F2CBC30002680A4 /* FindPanelController.h in Headers */,
+				4554B5D30F2CBC30002680A4 /* ManDocument.h in Headers */,
+				4554B5D40F2CBC30002680A4 /* ManDocumentController.h in Headers */,
+				4554B5D50F2CBC30002680A4 /* ManOpenProtocol.h in Headers */,
+				4554B5D60F2CBC30002680A4 /* NSData+Utils.h in Headers */,
+				4554B5D70F2CBC30002680A4 /* PrefPanelController.h in Headers */,
+				4554B5D80F2CBC30002680A4 /* SystemType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B5FF0F2CBC30002680A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B60B0F2CBC30002680A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B6180F2CBC30002680A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4554B5CB0F2CBC30002680A4 /* ManOpen (Application) (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4554B5F70F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "ManOpen (Application) (Upgraded)" */;
+			buildPhases = (
+				4554B5D00F2CBC30002680A4 /* Headers */,
+				4554B5D90F2CBC30002680A4 /* Resources */,
+				4554B5E80F2CBC30002680A4 /* Sources */,
+				4554B5F00F2CBC30002680A4 /* Frameworks */,
+				4554B5F30F2CBC30002680A4 /* Rez */,
+				4554B5F40F2CBC30002680A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4554B62A0F2CBC30002680A4 /* PBXTargetDependency */,
+				4554B62C0F2CBC30002680A4 /* PBXTargetDependency */,
+			);
+			name = "ManOpen (Application) (Upgraded)";
+			productInstallPath = "$(HOME)/Apps";
+			productName = "ManOpen (Application)";
+			productReference = 4554B5FC0F2CBC30002680A4 /* ManOpen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4554B6040F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2rtf (Tool) (Upgraded)" */;
+			buildPhases = (
+				4554B5FF0F2CBC30002680A4 /* Headers */,
+				4554B6000F2CBC30002680A4 /* Sources */,
+				4554B6020F2CBC30002680A4 /* Frameworks */,
+				4554B6030F2CBC30002680A4 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cat2rtf (Tool) (Upgraded)";
+			productName = "cat2rtf (Tool)";
+			productReference = 4554B6080F2CBC30002680A4 /* cat2rtf */;
+			productType = "com.apple.product-type.tool";
+		};
+		4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4554B6110F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2html (Tool) (Upgraded)" */;
+			buildPhases = (
+				4554B60B0F2CBC30002680A4 /* Headers */,
+				4554B60C0F2CBC30002680A4 /* Sources */,
+				4554B60E0F2CBC30002680A4 /* Frameworks */,
+				4554B6100F2CBC30002680A4 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cat2html (Tool) (Upgraded)";
+			productName = "cat2html (Tool)";
+			productReference = 4554B6150F2CBC30002680A4 /* cat2html */;
+			productType = "com.apple.product-type.tool";
+		};
+		4554B6170F2CBC30002680A4 /* openman (Tool) (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4554B61F0F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "openman (Tool) (Upgraded)" */;
+			buildPhases = (
+				4554B6180F2CBC30002680A4 /* Headers */,
+				4554B6190F2CBC30002680A4 /* Sources */,
+				4554B61B0F2CBC30002680A4 /* Frameworks */,
+				4554B61E0F2CBC30002680A4 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "openman (Tool) (Upgraded)";
+			productInstallPath = /usr/local/bin;
+			productName = "openman (Tool)";
+			productReference = 4554B6230F2CBC30002680A4 /* openman */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39279890821FFA400376676 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4554B5B10F2CBC1E002680A4 /* Build configuration list for PBXProject "ManOpen" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownPlatforms = (
+				macos,
+				macosclassic,
+				windows,
+				solaris,
+				hpux,
+				macintosh,
+			);
+			mainGroup = D39278DB0821FF9D00376676 /* ManOpen */;
+			productRefGroup = D39278ED0821FFA400376676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4554B5CB0F2CBC30002680A4 /* ManOpen (Application) (Upgraded) */,
+				4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */,
+				4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */,
+				4554B6170F2CBC30002680A4 /* openman (Tool) (Upgraded) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4554B5D90F2CBC30002680A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B5DA0F2CBC30002680A4 /* ManPage.nib in Resources */,
+				4554B5DB0F2CBC30002680A4 /* PrefPanel.nib in Resources */,
+				4554B5DC0F2CBC30002680A4 /* FindPanel.nib in Resources */,
+				4554B5DD0F2CBC30002680A4 /* Apropos.nib in Resources */,
+				4554B5DE0F2CBC30002680A4 /* ManOpen.nib in Resources */,
+				4554B5DF0F2CBC30002680A4 /* DocController.nib in Resources */,
+				4554B5E00F2CBC30002680A4 /* LinkCursor.tiff in Resources */,
+				4554B5E10F2CBC30002680A4 /* ManOpen-nextstep.tiff in Resources */,
+				4554B5E20F2CBC30002680A4 /* ManOpen.tiff in Resources */,
+				4554B5E30F2CBC30002680A4 /* ManOpen.scriptSuite in Resources */,
+				4554B5E40F2CBC30002680A4 /* ManOpen.icns in Resources */,
+				4554B5E50F2CBC30002680A4 /* ManOpen.scriptTerminology in Resources */,
+				4554B5E60F2CBC30002680A4 /* Credits.rtf in Resources */,
+				4554B5E70F2CBC30002680A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		4554B5F30F2CBC30002680A4 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B6030F2CBC30002680A4 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B6100F2CBC30002680A4 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B61E0F2CBC30002680A4 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4554B5E80F2CBC30002680A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B5E90F2CBC30002680A4 /* AproposDocument.m in Sources */,
+				4554B5EA0F2CBC30002680A4 /* FindPanelController.m in Sources */,
+				4554B5EB0F2CBC30002680A4 /* ManDocument.m in Sources */,
+				4554B5EC0F2CBC30002680A4 /* ManDocumentController.m in Sources */,
+				4554B5ED0F2CBC30002680A4 /* NSData+Utils.m in Sources */,
+				4554B5EE0F2CBC30002680A4 /* PrefPanelController.m in Sources */,
+				4554B5EF0F2CBC30002680A4 /* ManOpen_main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B6000F2CBC30002680A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B6010F2CBC30002680A4 /* cat2rtf.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B60C0F2CBC30002680A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B60D0F2CBC30002680A4 /* cat2html.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4554B6190F2CBC30002680A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554B61A0F2CBC30002680A4 /* openman.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4554B62A0F2CBC30002680A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */;
+			targetProxy = 4554B6290F2CBC30002680A4 /* PBXContainerItemProxy */;
+		};
+		4554B62C0F2CBC30002680A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */;
+			targetProxy = 4554B62B0F2CBC30002680A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D39279130821FFA400376676 /* ManPage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39279150821FFA400376676 /* English */,
+			);
+			name = ManPage.nib;
+			sourceTree = "<group>";
+		};
+		D39279160821FFA400376676 /* PrefPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39279180821FFA400376676 /* English */,
+			);
+			name = PrefPanel.nib;
+			sourceTree = "<group>";
+		};
+		D39279190821FFA400376676 /* FindPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D392791B0821FFA400376676 /* English */,
+			);
+			name = FindPanel.nib;
+			sourceTree = "<group>";
+		};
+		D392791C0821FFA400376676 /* Apropos.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D392791E0821FFA400376676 /* English */,
+			);
+			name = Apropos.nib;
+			sourceTree = "<group>";
+		};
+		D392791F0821FFA400376676 /* ManOpen.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39279210821FFA400376676 /* English */,
+				D39279220821FFA400376676 /* English - macintosh */,
+				D39279230821FFA400376676 /* English - macos */,
+			);
+			name = ManOpen.nib;
+			sourceTree = "<group>";
+		};
+		D39279240821FFA400376676 /* DocController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39279260821FFA400376676 /* English */,
+			);
+			name = DocController.nib;
+			sourceTree = "<group>";
+		};
+		D39279350821FFA400376676 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39279370821FFA400376676 /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D39279380821FFA400376676 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D392793A0821FFA400376676 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4554B59F0F2CBC1E002680A4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		4554B5A00F2CBC1E002680A4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		4554B5A10F2CBC1E002680A4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		4554B5F80F2CBC30002680A4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ManOpen__Application___Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Apps";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ManOpen;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		4554B5F90F2CBC30002680A4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ManOpen__Application___Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Apps";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ManOpen;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		4554B5FA0F2CBC30002680A4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ManOpen__Application___Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Apps";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ManOpen;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		4554B6050F2CBC30002680A4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cat2rtf;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		4554B6060F2CBC30002680A4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cat2rtf;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		4554B6070F2CBC30002680A4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cat2rtf;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		4554B6120F2CBC30002680A4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cat2html;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		4554B6130F2CBC30002680A4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cat2html;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		4554B6140F2CBC30002680A4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cat2html;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		4554B6200F2CBC30002680A4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = openman;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		4554B6210F2CBC30002680A4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = openman;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		4554B6220F2CBC30002680A4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = openman;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4554B5B10F2CBC1E002680A4 /* Build configuration list for PBXProject "ManOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4554B59F0F2CBC1E002680A4 /* Development */,
+				4554B5A00F2CBC1E002680A4 /* Deployment */,
+				4554B5A10F2CBC1E002680A4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4554B5F70F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "ManOpen (Application) (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4554B5F80F2CBC30002680A4 /* Development */,
+				4554B5F90F2CBC30002680A4 /* Deployment */,
+				4554B5FA0F2CBC30002680A4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4554B6040F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2rtf (Tool) (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4554B6050F2CBC30002680A4 /* Development */,
+				4554B6060F2CBC30002680A4 /* Deployment */,
+				4554B6070F2CBC30002680A4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4554B6110F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2html (Tool) (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4554B6120F2CBC30002680A4 /* Development */,
+				4554B6130F2CBC30002680A4 /* Deployment */,
+				4554B6140F2CBC30002680A4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4554B61F0F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "openman (Tool) (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4554B6200F2CBC30002680A4 /* Development */,
+				4554B6210F2CBC30002680A4 /* Deployment */,
+				4554B6220F2CBC30002680A4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39279890821FFA400376676 /* Project object */;
+}
