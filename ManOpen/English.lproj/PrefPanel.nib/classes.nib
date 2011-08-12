@@ -1,0 +1,67 @@
+{
+    IBClasses =     (
+        {
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+},
+        {
+    CLASS = NSTableView;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        cornerView = id;
+    };
+    SUPERCLASS = NSControl;
+},
+        {
+    ACTIONS =     {
+        showWindow = id;
+    };
+    CLASS = NSWindowController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        window = id;
+    };
+    SUPERCLASS = NSObject;
+},
+        {
+    ACTIONS =     {
+        addPath = id;
+        chooseNewApp = id;
+        movePathDown = id;
+        movePathUp = id;
+        openFontPanel = id;
+        removePath = id;
+        revertFromDefaults = id;
+        saveToDefaults = id;
+        setColor = id;
+        switchPrefPane = id;
+    };
+    CLASS = PrefPanelController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        appPopup = id;
+        appearancePaneBox = id;
+        backgroundColorWell = id;
+        defaultAppPaneBox = id;
+        fontField = id;
+        generalPaneBox = id;
+        keepOpenSwitch = id;
+        lastClosedSwitch = id;
+        linkColorWell = id;
+        manPathTableView = id;
+        movePathDownButton = id;
+        movePathUpButton = id;
+        nroffCommandField = id;
+        openOnNoWindowsSwitch = id;
+        openOnStartupSwitch = id;
+        panePopup = id;
+        textColorWell = id;
+        useBoldSwitch = id;
+        useItalicsSwitch = id;
+    };
+    SUPERCLASS = NSWindowController;
+}
+    );
+    IBVersion = 1;
+}

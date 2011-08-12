@@ -1,0 +1,50 @@
+{
+    IBClasses =     (
+        {
+    CLASS = CancelOpenPanel;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSPanel;
+},
+        {
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+},
+        {
+    ACTIONS =     {
+        cancelText = id;
+        okApropos = id;
+        okText = id;
+        openAproposPanel = id;
+        openSection = id;
+        openTextPanel = id;
+        orderFrontFindPanel = id;
+        orderFrontHelpPanel = id;
+        orderFrontPreferencesPanel = id;
+    };
+    CLASS = ManDocumentController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        aproposField = id;
+        aproposPanel = id;
+        helpPanel = id;
+        infoPanel = id;
+        openSectionPopup = id;
+        openTextField = id;
+        openTextPanel = id;
+    };
+    SUPERCLASS = NSDocumentController;
+},
+        {
+    ACTIONS =     {
+        newDocument = id;
+        openDocument = id;
+        saveAllDocuments = id;
+    };
+    CLASS = NSDocumentController;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+}
+    );
+    IBVersion = 1;
+}
