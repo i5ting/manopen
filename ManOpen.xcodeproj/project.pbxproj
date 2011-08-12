@@ -53,15 +53,22 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D39279890821FFA400376676 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */;
+			remoteGlobalIDString = 4554B5FE0F2CBC30002680A4;
 			remoteInfo = "cat2rtf (Tool) (Upgraded)";
 		};
 		4554B62B0F2CBC30002680A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D39279890821FFA400376676 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */;
+			remoteGlobalIDString = 4554B60A0F2CBC30002680A4;
 			remoteInfo = "cat2html (Tool) (Upgraded)";
+		};
+		45F6D44613F59D4D003A90CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39279890821FFA400376676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4554B6170F2CBC30002680A4;
+			remoteInfo = "openman (Tool)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -81,7 +88,7 @@
 
 /* Begin PBXFileReference section */
 		4554B5FB0F2CBC30002680A4 /* Info-ManOpen__Application___Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ManOpen__Application___Upgraded_.plist"; sourceTree = "<group>"; };
-		4554B5FC0F2CBC30002680A4 /* ManOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ManOpen.app; path = /Users/schwa/Development/Products/Development/ManOpen.app; sourceTree = "<absolute>"; };
+		4554B5FC0F2CBC30002680A4 /* ManOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManOpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4554B6080F2CBC30002680A4 /* cat2rtf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cat2rtf; sourceTree = BUILT_PRODUCTS_DIR; };
 		4554B6150F2CBC30002680A4 /* cat2html */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cat2html; sourceTree = BUILT_PRODUCTS_DIR; };
 		4554B6230F2CBC30002680A4 /* openman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openman; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -461,9 +468,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4554B5CB0F2CBC30002680A4 /* ManOpen (Application) (Upgraded) */ = {
+		4554B5CB0F2CBC30002680A4 /* ManOpen (Application) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4554B5F70F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "ManOpen (Application) (Upgraded)" */;
+			buildConfigurationList = 4554B5F70F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "ManOpen (Application)" */;
 			buildPhases = (
 				4554B5D00F2CBC30002680A4 /* Headers */,
 				4554B5D90F2CBC30002680A4 /* Resources */,
@@ -475,18 +482,19 @@
 			buildRules = (
 			);
 			dependencies = (
+				45F6D44713F59D4D003A90CD /* PBXTargetDependency */,
 				4554B62A0F2CBC30002680A4 /* PBXTargetDependency */,
 				4554B62C0F2CBC30002680A4 /* PBXTargetDependency */,
 			);
-			name = "ManOpen (Application) (Upgraded)";
+			name = "ManOpen (Application)";
 			productInstallPath = "$(HOME)/Apps";
 			productName = "ManOpen (Application)";
 			productReference = 4554B5FC0F2CBC30002680A4 /* ManOpen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */ = {
+		4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4554B6040F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2rtf (Tool) (Upgraded)" */;
+			buildConfigurationList = 4554B6040F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2rtf (Tool)" */;
 			buildPhases = (
 				4554B5FF0F2CBC30002680A4 /* Headers */,
 				4554B6000F2CBC30002680A4 /* Sources */,
@@ -497,14 +505,14 @@
 			);
 			dependencies = (
 			);
-			name = "cat2rtf (Tool) (Upgraded)";
+			name = "cat2rtf (Tool)";
 			productName = "cat2rtf (Tool)";
 			productReference = 4554B6080F2CBC30002680A4 /* cat2rtf */;
 			productType = "com.apple.product-type.tool";
 		};
-		4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */ = {
+		4554B60A0F2CBC30002680A4 /* cat2html (Tool) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4554B6110F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2html (Tool) (Upgraded)" */;
+			buildConfigurationList = 4554B6110F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2html (Tool)" */;
 			buildPhases = (
 				4554B60B0F2CBC30002680A4 /* Headers */,
 				4554B60C0F2CBC30002680A4 /* Sources */,
@@ -515,14 +523,14 @@
 			);
 			dependencies = (
 			);
-			name = "cat2html (Tool) (Upgraded)";
+			name = "cat2html (Tool)";
 			productName = "cat2html (Tool)";
 			productReference = 4554B6150F2CBC30002680A4 /* cat2html */;
 			productType = "com.apple.product-type.tool";
 		};
-		4554B6170F2CBC30002680A4 /* openman (Tool) (Upgraded) */ = {
+		4554B6170F2CBC30002680A4 /* openman (Tool) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4554B61F0F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "openman (Tool) (Upgraded)" */;
+			buildConfigurationList = 4554B61F0F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "openman (Tool)" */;
 			buildPhases = (
 				4554B6180F2CBC30002680A4 /* Headers */,
 				4554B6190F2CBC30002680A4 /* Sources */,
@@ -533,7 +541,7 @@
 			);
 			dependencies = (
 			);
-			name = "openman (Tool) (Upgraded)";
+			name = "openman (Tool)";
 			productInstallPath = /usr/local/bin;
 			productName = "openman (Tool)";
 			productReference = 4554B6230F2CBC30002680A4 /* openman */;
@@ -546,6 +554,7 @@
 			isa = PBXProject;
 			buildConfigurationList = 4554B5B10F2CBC1E002680A4 /* Build configuration list for PBXProject "ManOpen" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownPlatforms = (
 				macos,
@@ -555,15 +564,18 @@
 				hpux,
 				macintosh,
 			);
+			knownRegions = (
+				en,
+			);
 			mainGroup = D39278DB0821FF9D00376676 /* ManOpen */;
 			productRefGroup = D39278ED0821FFA400376676 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4554B5CB0F2CBC30002680A4 /* ManOpen (Application) (Upgraded) */,
-				4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */,
-				4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */,
-				4554B6170F2CBC30002680A4 /* openman (Tool) (Upgraded) */,
+				4554B5CB0F2CBC30002680A4 /* ManOpen (Application) */,
+				4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) */,
+				4554B60A0F2CBC30002680A4 /* cat2html (Tool) */,
+				4554B6170F2CBC30002680A4 /* openman (Tool) */,
 			);
 		};
 /* End PBXProject section */
@@ -667,13 +679,18 @@
 /* Begin PBXTargetDependency section */
 		4554B62A0F2CBC30002680A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) (Upgraded) */;
+			target = 4554B5FE0F2CBC30002680A4 /* cat2rtf (Tool) */;
 			targetProxy = 4554B6290F2CBC30002680A4 /* PBXContainerItemProxy */;
 		};
 		4554B62C0F2CBC30002680A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4554B60A0F2CBC30002680A4 /* cat2html (Tool) (Upgraded) */;
+			target = 4554B60A0F2CBC30002680A4 /* cat2html (Tool) */;
 			targetProxy = 4554B62B0F2CBC30002680A4 /* PBXContainerItemProxy */;
+		};
+		45F6D44713F59D4D003A90CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4554B6170F2CBC30002680A4 /* openman (Tool) */;
+			targetProxy = 45F6D44613F59D4D003A90CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -747,25 +764,23 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4554B59F0F2CBC1E002680A4 /* Development */ = {
+		4554B59F0F2CBC1E002680A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
 			};
-			name = Development;
+			name = Debug;
 		};
-		4554B5A00F2CBC1E002680A4 /* Deployment */ = {
+		4554B5A00F2CBC1E002680A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 			};
-			name = Deployment;
+			name = Release;
 		};
-		4554B5A10F2CBC1E002680A4 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Default;
-		};
-		4554B5F80F2CBC30002680A4 /* Development */ = {
+		4554B5F80F2CBC30002680A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -787,9 +802,9 @@
 				);
 				WRAPPER_EXTENSION = app;
 			};
-			name = Development;
+			name = Debug;
 		};
-		4554B5F90F2CBC30002680A4 /* Deployment */ = {
+		4554B5F90F2CBC30002680A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -811,32 +826,9 @@
 				);
 				WRAPPER_EXTENSION = app;
 			};
-			name = Deployment;
+			name = Release;
 		};
-		4554B5FA0F2CBC30002680A4 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-ManOpen__Application___Upgraded_.plist";
-				INSTALL_PATH = "$(HOME)/Apps";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ManOpen;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Default;
-		};
-		4554B6050F2CBC30002680A4 /* Development */ = {
+		4554B6050F2CBC30002680A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -855,9 +847,9 @@
 					"-Wno-unknown-pragmas",
 				);
 			};
-			name = Development;
+			name = Debug;
 		};
-		4554B6060F2CBC30002680A4 /* Deployment */ = {
+		4554B6060F2CBC30002680A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -876,29 +868,9 @@
 					"-Wno-unknown-pragmas",
 				);
 			};
-			name = Deployment;
+			name = Release;
 		};
-		4554B6070F2CBC30002680A4 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cat2rtf;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Default;
-		};
-		4554B6120F2CBC30002680A4 /* Development */ = {
+		4554B6120F2CBC30002680A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -917,9 +889,9 @@
 					"-Wno-unknown-pragmas",
 				);
 			};
-			name = Development;
+			name = Debug;
 		};
-		4554B6130F2CBC30002680A4 /* Deployment */ = {
+		4554B6130F2CBC30002680A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -938,29 +910,9 @@
 					"-Wno-unknown-pragmas",
 				);
 			};
-			name = Deployment;
+			name = Release;
 		};
-		4554B6140F2CBC30002680A4 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cat2html;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Default;
-		};
-		4554B6200F2CBC30002680A4 /* Development */ = {
+		4554B6200F2CBC30002680A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -979,9 +931,9 @@
 					"-Wno-unknown-pragmas",
 				);
 			};
-			name = Development;
+			name = Debug;
 		};
-		4554B6210F2CBC30002680A4 /* Deployment */ = {
+		4554B6210F2CBC30002680A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -1000,27 +952,7 @@
 					"-Wno-unknown-pragmas",
 				);
 			};
-			name = Deployment;
-		};
-		4554B6220F2CBC30002680A4 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = openman;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1028,52 +960,47 @@
 		4554B5B10F2CBC1E002680A4 /* Build configuration list for PBXProject "ManOpen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4554B59F0F2CBC1E002680A4 /* Development */,
-				4554B5A00F2CBC1E002680A4 /* Deployment */,
-				4554B5A10F2CBC1E002680A4 /* Default */,
+				4554B59F0F2CBC1E002680A4 /* Debug */,
+				4554B5A00F2CBC1E002680A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		4554B5F70F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "ManOpen (Application) (Upgraded)" */ = {
+		4554B5F70F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "ManOpen (Application)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4554B5F80F2CBC30002680A4 /* Development */,
-				4554B5F90F2CBC30002680A4 /* Deployment */,
-				4554B5FA0F2CBC30002680A4 /* Default */,
+				4554B5F80F2CBC30002680A4 /* Debug */,
+				4554B5F90F2CBC30002680A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		4554B6040F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2rtf (Tool) (Upgraded)" */ = {
+		4554B6040F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2rtf (Tool)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4554B6050F2CBC30002680A4 /* Development */,
-				4554B6060F2CBC30002680A4 /* Deployment */,
-				4554B6070F2CBC30002680A4 /* Default */,
+				4554B6050F2CBC30002680A4 /* Debug */,
+				4554B6060F2CBC30002680A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		4554B6110F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2html (Tool) (Upgraded)" */ = {
+		4554B6110F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "cat2html (Tool)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4554B6120F2CBC30002680A4 /* Development */,
-				4554B6130F2CBC30002680A4 /* Deployment */,
-				4554B6140F2CBC30002680A4 /* Default */,
+				4554B6120F2CBC30002680A4 /* Debug */,
+				4554B6130F2CBC30002680A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		4554B61F0F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "openman (Tool) (Upgraded)" */ = {
+		4554B61F0F2CBC30002680A4 /* Build configuration list for PBXNativeTarget "openman (Tool)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4554B6200F2CBC30002680A4 /* Development */,
-				4554B6210F2CBC30002680A4 /* Deployment */,
-				4554B6220F2CBC30002680A4 /* Default */,
+				4554B6200F2CBC30002680A4 /* Debug */,
+				4554B6210F2CBC30002680A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
