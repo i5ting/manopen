@@ -1,0 +1,22 @@
+{
+    IBClasses =     (
+        {
+    ACTIONS =     {
+        openManPages = id;
+    };
+    CLASS = AproposDocument;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        tableView = id;
+        titleColumn = id;
+    };
+    SUPERCLASS = NSDocument;
+},
+        {
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+}
+    );
+    IBVersion = 1;
+}
